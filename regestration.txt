@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aditya University | Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Aditya University</h1>
+    <p>TechFest 2026 – Multi Event Registration Portal</p>
+</header>
+
+<section class="events">
+    <h2>Events Conducted</h2>
+
+    <div class="event-grid">
+        <div class="event-card"> Coding Contest</div>
+        <div class="event-card"> Paper Presentation</div>
+        <div class="event-card"> Technical Quiz</div>
+        <div class="event-card"> Project Expo</div>
+        <div class="event-card"> Poster Presentation</div>
+        <div class="event-card"> Robotics Challenge</div>
+    </div>
+</section>
+
+<section class="form-card">
+    <h2> Student Registration</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Roll Number</label>
+        <input type="text" placeholder="Enter roll number">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter email">
+
+        <label>Department</label>
+        <select>
+            <option>Select Department</option>
+            <option>CSE</option>
+            <option>DS</option>
+            <option>AIML</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>IT</option>
+            <option>MECH</option>
+        </select>
+
+        <label>Select Events (You can choose multiple)</label>
+
+        <div class="checkbox-group">
+            <label><input type="checkbox"> Coding Contest</label>
+            <label><input type="checkbox"> Paper Presentation</label>
+            <label><input type="checkbox"> Technical Quiz</label>
+            <label><input type="checkbox"> Project Expo</label>
+            <label><input type="checkbox"> Poster Presentation</label>
+            <label><input type="checkbox"> Robotics Challenge</label>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+<footer>
+    <p> 2026 Aditya University | TechFest</p>
+</footer>
+
+</body>
+</html>
